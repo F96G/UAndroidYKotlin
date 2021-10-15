@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Clima</string>
+
+    <string name="tvBienvenida">Bienvenidos a mi aplicacion de clima. Por favor seleccione una ciudad</string>
+    <string name="btCordoba">Cordoba</string>
+    <string name="btVilla">Villa del Rosario</string>
 </resources>
