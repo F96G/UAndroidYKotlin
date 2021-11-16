@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">Clima</string>
 
-    <string name="text_Ciudad">Cordoba</string>
-    <string name="text_Estado">Lluvia</string>
-    <string name="text_Grados">21º</string>
+    <string name="text_Ciudad">Loading</string>
+    <string name="text_Estado">Loading</string>
+    <string name="text_Grados">0º</string>
 
 
     <string name="text_Bienvendida"> Bienvendo a mi app de clima.<br /> Por favor selecciona una ciudad: </string>
     <string name="text_BotonCiudadCordoba">Cordoba</string>
     <string name="text_BotonCiudadVilla">Villa del Rosario</string>
+    <string name="text_BotonShanghay">Shanghai</string>
 </resources>
