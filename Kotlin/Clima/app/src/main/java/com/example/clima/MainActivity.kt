@@ -63,11 +63,11 @@ class MainActivity : AppCompatActivity() {
         val solicitud = StringRequest(Request.Method.GET, url, {
                 response ->
             try {
-                Log.d("solicitudHTTPVolley", response)
+                //Log.d("solicitudHTTPVolley", response)
 
-                var gson = Gson()
-                var ciudad = gson.fromJson(response, Ciudad::class.java)
-                Log.d("GSON",ciudad.name)
+                val gson = Gson()
+                val ciudad = gson.fromJson(response, Ciudad::class.java)
+                //Log.d("GSON",ciudad.name)
                 tvCiudad?.text=ciudad.name
                 tvGrados?.text=ciudad.main?.temp.toString() + "º"
                 tvEstado?.text=ciudad.weather?.get(0)!!.description
