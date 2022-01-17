@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">EjemploToolBar</string>
     <string name="tituloStar">Star</string>
+    <string name="search">Search</string>
 </resources>

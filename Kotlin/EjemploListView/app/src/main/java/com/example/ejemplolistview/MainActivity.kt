@@ -2,10 +2,7 @@ package com.example.ejemplolistview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.ListView
-import android.widget.Toast
+import android.widget.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         frutas.add(Fruta("Banana", R.drawable.platano))
         frutas.add(Fruta("Durazno", R.drawable.durazno))
         frutas.add(Fruta("Sandia", R.drawable.sandia))
+
 
          //Realiza el enlistado en pantalla
         lista.adapter = adaptador

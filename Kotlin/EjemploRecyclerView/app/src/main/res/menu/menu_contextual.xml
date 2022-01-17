@@ -6,5 +6,5 @@
         android:id="@+id/eliminar"
         android:icon="@drawable/icono_eliminar"
         android:title="Eliminar"
-        app:showAsAction="always" />
+        android:showAsAction="always" />
 </menu>
